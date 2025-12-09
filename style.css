@@ -1,0 +1,15 @@
+/* style.css (Minimal for DOM-based rendering) */
+
+/* Fix for pre-wrap behavior in certain older browsers/contexts */
+#chat-messages div > div {
+    white-space: pre-wrap;
+}
+
+/* Optional: Custom scrollbar styling for the chat window */
+#chat-messages::-webkit-scrollbar {
+    width: 6px;
+}
+#chat-messages::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1; /* gray-300 */
+    border-radius: 3px;
+}
